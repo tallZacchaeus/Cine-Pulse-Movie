@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Signika Negative', sans-serif;    
+}
+
+header {
+    background-color: black;
+    display: flex;
+}
+
+header>h1 {
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    width: 30%;
+}
+
+header>nav {
+    float: right;
+}
+
+nav {
+    width: 65%;
+    padding: 10px;
+}
+
+nav, ul, li {
+    display: inline;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    padding-left: 100px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: aqua;
+}
